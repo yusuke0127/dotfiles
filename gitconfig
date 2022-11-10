@@ -49,7 +49,7 @@
   mergeoptions = --no-edit
 [user]
 	email = ishidayusuke01@gmail.com
-	name = Yusuke Ishida
+	name = yusuke ishida
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
