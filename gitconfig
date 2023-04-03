@@ -15,10 +15,10 @@
 	excludesfile = /Users/yusuke/.gitignore
 
 [alias]
-  co = checkout
-  st = status -sb
-  br = branch
-  ci = commit
+	co = checkout
+	st = status
+	br = branch
+	ci = commit
   fo = fetch origin
   d = !git --no-pager diff
   dt  = difftool
@@ -37,7 +37,8 @@
   m = checkout master
 
   # Removes a file from the index
-  unstage = reset HEAD --
+	unstage = reset HEAD --
+	last = log -1 HEAD
 
 [help]
   autocorrect = 1
@@ -55,3 +56,5 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[init]
+	defaultBranch = main
