@@ -80,3 +80,4 @@ export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bi
 export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
 export PATH="${HOME}/.pyenv/shims:${PATH}"
 eval "$(direnv hook zsh)"
+export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
